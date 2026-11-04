@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="MIXCO Studio Manager - Manage music production clients and studio projects.">
+
+    <title>MIXCO Studio Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================
+         LOADING SCREEN
+    =================================== -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <h1>MIXCO<span>.</span></h1>
+
+            <p>STUDIO MANAGER</p>
+
+            <div class="audio-spectrum">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <small>INITIALIZING STUDIO...</small>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================
+         SIDEBAR
+    =================================== -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <h2>MIXCO<span>.</span></h2>
+
+            <small>STUDIO MANAGER</small>
+
+        </div>
+
+
+        <nav>
+
+            <a href="#" class="active" data-page="dashboard">
+                Dashboard
+            </a>
+
+            <a href="#" data-page="clients">
+                Clients
+            </a>
+
+            <a href="#" data-page="projects">
+                Projects
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+            Music Production Management
+        </div>
+
+    </aside>
+
+
+    <!-- ==================================
+         MAIN CONTENT
+    =================================== -->
+
+    <main class="main-content">
+
+
+        <!-- TOP HEADER -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h2 id="page-title">Dashboard</h2>
+
+                <p>Welcome to MIXCO Studio Manager</p>
+
+            </div>
+
+
+            <div class="studio-tag">
+                MIXCO STUDIO
+            </div>
+
+        </header>
+
+
+        <!-- DYNAMIC APPLICATION CONTENT -->
+
+        <section id="app-content">
+
+            <!-- Dashboard, Clients and Projects
+                 are rendered through JavaScript -->
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ==================================
+         JAVASCRIPT
+    =================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
